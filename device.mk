@@ -113,7 +113,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-dot
+    $(LOCAL_PATH)/overlay-evolution
 
 # Overlays -- Override vendor ones
 PRODUCT_PACKAGES += \
@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
+    
 # WiFi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
